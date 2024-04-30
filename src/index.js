@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CardDataFilter from './components/CardDataFilter';
+import CardDataMap from './components/CardDataMap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardDataFilter />
+    <CardDataMap />
   </React.StrictMode>
 );
 
